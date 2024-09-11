@@ -1,0 +1,24 @@
+Análisis del mapa de calor:
+Ruta del mapa de calor: /Users/nicolopez/Cursor/Content_Creation/VideoData/Fatima Hajji _ Aniversario CODE - Fabrik Madrid 19 11 2022-15 dic 2022/mapa_calor_0.png
+Número de picos detectados: 20
+
+Pico 1: Inicio = 47, Fin = 60
+Pico 2: Inicio = 121, Fin = 123
+Pico 3: Inicio = 145, Fin = 156
+Pico 4: Inicio = 178, Fin = 195
+Pico 5: Inicio = 204, Fin = 209
+Pico 6: Inicio = 259, Fin = 334
+Pico 7: Inicio = 259, Fin = 334
+Pico 8: Inicio = 259, Fin = 334
+Pico 9: Inicio = 363, Fin = 374
+Pico 10: Inicio = 383, Fin = 394
+Pico 11: Inicio = 426, Fin = 437
+Pico 12: Inicio = 450, Fin = 454
+Pico 13: Inicio = 479, Fin = 493
+Pico 14: Inicio = 511, Fin = 521
+Pico 15: Inicio = 537, Fin = 551
+Pico 16: Inicio = 565, Fin = 576
+Pico 17: Inicio = 616, Fin = 625
+Pico 18: Inicio = 636, Fin = 655
+Pico 19: Inicio = 666, Fin = 678
+Pico 20: Inicio = 693, Fin = 699

@@ -10,3 +10,6 @@ def obtener_ultimo_archivo(ruta_base, extension):
 
 def obtener_ultimo_archivo_json_video(ruta_base):
     return obtener_ultimo_archivo(ruta_base, 'info_video.json')
+
+def obtener_ultimo_archivo_txt_clips(ruta_base):
+    return obtener_ultimo_archivo(ruta_base, 'Clips.txt')

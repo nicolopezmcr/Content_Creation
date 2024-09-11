@@ -1,0 +1,11 @@
+Se encontraron 10 picos únicos en el mapa de calor:
+Clip 10: Inicio = 09:40, Fin = 09:45
+Clip 1: Inicio = 01:25, Fin = 04:00
+Clip 2: Inicio = 01:25, Fin = 04:00
+Clip 3: Inicio = 01:25, Fin = 04:00
+Clip 4: Inicio = 01:25, Fin = 04:00
+Clip 5: Inicio = 01:25, Fin = 04:00
+Clip 6: Inicio = 01:25, Fin = 04:00
+Clip 7: Inicio = 04:15, Fin = 04:22
+Clip 8: Inicio = 05:28, Fin = 05:35
+Clip 9: Inicio = 05:45, Fin = 06:53
