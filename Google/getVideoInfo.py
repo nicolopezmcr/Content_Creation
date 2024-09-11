@@ -22,9 +22,6 @@ def obtener_info_video(url):
 
         # Obtener el título del video
         titulo = obtener_titulo_video(driver)
-        if titulo:
-            print(f"Título del video: {titulo}")
-
       
         # Obtener la descripción del video
         descripcion = obtener_descripcion_video(driver)
