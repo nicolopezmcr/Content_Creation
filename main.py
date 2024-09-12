@@ -29,8 +29,20 @@ def main():
     except subprocess.CalledProcessError as e:
         print(f"Error al ejecutar heatmapManage.py: {e}")
         print(f"Salida de error: {e.stderr}")
+        sys.exit(1)
     except FileNotFoundError:
         print("Error: No se pudo encontrar el archivo heatmapManage.py. Asegúrate de que esté en la ruta correcta.")
+        sys.exit(1)
+
+    # Ejecutar clipGenerator.py
+    try:
+        resultado = subprocess.run(["python", "ClipsGeneration/clipGenerator.py"], check=True, text=True, capture_output=True)
+        print(resultado.stdout)
+    except subprocess.CalledProcessError as e:
+        print(f"Error al ejecutar clipGenerator.py: {e}")
+        print(f"Salida de error: {e.stderr}")
+    except FileNotFoundError:
+        print("Error: No se pudo encontrar el archivo clipGenerator.py. Asegúrate de que esté en la ruta correcta.")
 
 if __name__ == "__main__":
     main()

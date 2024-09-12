@@ -8,8 +8,8 @@ from Utils.file_utils import obtener_ultima_carpeta
 from Utils.video_utils import leer_duracion_video
 from imageAnalysis import procesar_mapa_calor, calcular_tiempos_clips
 from peakDetection import detectar_picos_con_inicio_fin_respecto_media
-from createClipstxt import escribir_clips_a_archivo
-from manageClipstxt import analizar_clips
+from createClipsJson import escribir_clips_a_archivo
+from manageClipsJson import analizar_clips
 def analizar_mapa_calor(ruta_base, nombre_archivo_mapa_calor='mapa_calor_0.png', distancia_minima=20):
     ruta_carpeta = obtener_ultima_carpeta(ruta_base)
     
