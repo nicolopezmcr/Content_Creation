@@ -41,8 +41,22 @@ def main():
     except subprocess.CalledProcessError as e:
         print(f"Error al ejecutar clipGenerator.py: {e}")
         print(f"Salida de error: {e.stderr}")
+        sys.exit(1)
     except FileNotFoundError:
         print("Error: No se pudo encontrar el archivo clipGenerator.py. Asegúrate de que esté en la ruta correcta.")
+        sys.exit(1)
+
+    # Ejecutar contentGenerate.py
+    try:
+        resultado = subprocess.run(["python", "AIGeneration/contentGenerate.py"], check=True, text=True, capture_output=True)
+        print(resultado.stdout)
+    except subprocess.CalledProcessError as e:
+        print(f"Error al ejecutar contentGenerate.py: {e}")
+        print(f"Salida de error: {e.stderr}")
+        sys.exit(1)
+    except FileNotFoundError:
+        print("Error: No se pudo encontrar el archivo contentGenerate.py. Asegúrate de que esté en la ruta correcta.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

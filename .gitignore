@@ -1,2 +1,3 @@
 VideoData/**
 !VideoData/.gitkeep
+.env

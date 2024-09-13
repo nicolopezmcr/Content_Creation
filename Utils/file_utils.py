@@ -13,3 +13,9 @@ def obtener_ultimo_archivo_json_video(ruta_base):
 
 def obtener_ultimo_archivo_txt_clips(ruta_base):
     return obtener_ultimo_archivo(ruta_base, 'Clips.txt')
+
+def obtener_ruta_a_clips_en_ultima_carpeta(ruta_base):
+    ultima_carpeta = obtener_ultima_carpeta(ruta_base)
+    if ultima_carpeta:
+        return os.path.join(ultima_carpeta,'clips_raw','Clips.txt')
+    return None

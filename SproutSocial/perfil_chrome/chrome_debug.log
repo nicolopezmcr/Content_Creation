@@ -1,0 +1,37 @@
+[68971:259:0913/183920.687460:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.138 (not a warning)
+[68971:259:0913/183921.057196:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[68971:259:0913/183922.797436:INFO:CONSOLE(1)] "Initialization of sharing external failed: TypeError: Cannot read properties of undefined (reading 'call')", source: https://d672eyudr6aq1.cloudfront.net/jsbr/webpack-runtime.c77c5daef84d483f1562.js (1)
+[68971:259:0913/183922.797520:INFO:CONSOLE(1)] "Initialization of sharing external failed: TypeError: Cannot read properties of undefined (reading 'call')", source: https://d672eyudr6aq1.cloudfront.net/jsbr/webpack-runtime.c77c5daef84d483f1562.js (1)
+[68971:259:0913/183922.823692:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed with logging active, version 3.3.1", source: https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~5e06d148-f82e0cd2.71e0efe94829268b60a6.js (2)
+[68994:259:0913/183922.847432:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[68971:259:0913/183923.003585:INFO:CONSOLE(17)] "%c
+      sssppppppppppppr
+   sssssspppppppppprrr
+ sssssssspppppppprrrrr
+ssssssssspppppprrrrrrr
+ssssssssspppprrrrrrrrr
+ssssssssspprrrrrrrrrrr
+sssssssssrrrrrrrrrrrrr
+ssssssssoooooooooooooo
+ssssssooooooooooooooo
+ssssoooooooooooooooo
+ssoooooooooooooooo
+uuusss
+uuuu
+tt
+
+Sprout Social is hiring.
+Come grow with us > https://sproutsocial.com/careers/
+
+ color: #0ca750; font-weight: bold;", source: https://d672eyudr6aq1.cloudfront.net/jsbr/common~5e06d148-43dd7041.5f94f5de03ecf064e987.js (17)
+[68971:259:0913/183923.165586:INFO:CONSOLE(1)] "[Intercom] Launcher is disabled in settings or current page does not match display conditions", source: https://js.intercomcdn.com/frame-modern.75574a99.js (1)
+[68971:259:0913/183923.302412:INFO:CONSOLE(0)] "<meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes">", source: https://app.sproutsocial.com/publishing/calendar/week/compact (0)
+[69002:259:0913/183924.171673:ERROR:system_services.cc(31)] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
+[68994:259:0913/183926.374975:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[68994:259:0913/183926.389364:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[68994:56835:0913/183932.583719:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[68994:56835:0913/183933.091175:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[68994:56835:0913/183933.140960:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[68980:20483:0913/183945.822033:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[68980:20483:0913/183945.822308:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[68971:259:0913/183945.856636:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

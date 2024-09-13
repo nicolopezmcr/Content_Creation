@@ -1,6 +1,3 @@
-2024/09/12-13:16:58.995 9003 Reusing MANIFEST /Users/nicolopez/Cursor/Content_Creation/perfil_chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/12-13:16:58.995 9003 Recovering log #18
-2024/09/12-13:16:59.010 9003 Reusing old log /Users/nicolopez/Cursor/Content_Creation/perfil_chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000018.log 
-2024/09/12-13:16:59.683 6e03 Level-0 table #24: started
-2024/09/12-13:16:59.709 6e03 Level-0 table #24: 1773253 bytes OK
-2024/09/12-13:16:59.745 6e03 Delete type=0 #18
+2024/09/12-15:31:05.849 6a03 Reusing MANIFEST /Users/nicolopez/Cursor/Content_Creation/perfil_chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/12-15:31:05.850 6a03 Recovering log #23
+2024/09/12-15:31:05.851 6a03 Reusing old log /Users/nicolopez/Cursor/Content_Creation/perfil_chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000023.log 
