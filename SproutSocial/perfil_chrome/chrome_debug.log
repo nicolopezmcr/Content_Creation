@@ -1,10 +1,10 @@
-[68971:259:0913/183920.687460:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.138 (not a warning)
-[68971:259:0913/183921.057196:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
-[68971:259:0913/183922.797436:INFO:CONSOLE(1)] "Initialization of sharing external failed: TypeError: Cannot read properties of undefined (reading 'call')", source: https://d672eyudr6aq1.cloudfront.net/jsbr/webpack-runtime.c77c5daef84d483f1562.js (1)
-[68971:259:0913/183922.797520:INFO:CONSOLE(1)] "Initialization of sharing external failed: TypeError: Cannot read properties of undefined (reading 'call')", source: https://d672eyudr6aq1.cloudfront.net/jsbr/webpack-runtime.c77c5daef84d483f1562.js (1)
-[68971:259:0913/183922.823692:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed with logging active, version 3.3.1", source: https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~5e06d148-f82e0cd2.71e0efe94829268b60a6.js (2)
-[68994:259:0913/183922.847432:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
-[68971:259:0913/183923.003585:INFO:CONSOLE(17)] "%c
+[80375:259:0914/154703.840587:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.138 (not a warning)
+[80375:259:0914/154703.979139:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[80375:259:0914/154705.248319:INFO:CONSOLE(1)] "Initialization of sharing external failed: TypeError: Cannot read properties of undefined (reading 'call')", source: https://d672eyudr6aq1.cloudfront.net/jsbr/webpack-runtime.c6515999f9f669aa1aa5.js (1)
+[80375:259:0914/154705.248425:INFO:CONSOLE(1)] "Initialization of sharing external failed: TypeError: Cannot read properties of undefined (reading 'call')", source: https://d672eyudr6aq1.cloudfront.net/jsbr/webpack-runtime.c6515999f9f669aa1aa5.js (1)
+[80375:259:0914/154705.268304:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed with logging active, version 3.3.1", source: https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~5e06d148-f82e0cd2.07d7a21d72dcdd187f52.js (2)
+[80387:259:0914/154705.286257:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80375:259:0914/154705.446282:INFO:CONSOLE(17)] "%c
       sssppppppppppppr
    sssssspppppppppprrr
  sssssssspppppppprrrrr
@@ -23,15 +23,75 @@ tt
 Sprout Social is hiring.
 Come grow with us > https://sproutsocial.com/careers/
 
- color: #0ca750; font-weight: bold;", source: https://d672eyudr6aq1.cloudfront.net/jsbr/common~5e06d148-43dd7041.5f94f5de03ecf064e987.js (17)
-[68971:259:0913/183923.165586:INFO:CONSOLE(1)] "[Intercom] Launcher is disabled in settings or current page does not match display conditions", source: https://js.intercomcdn.com/frame-modern.75574a99.js (1)
-[68971:259:0913/183923.302412:INFO:CONSOLE(0)] "<meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes">", source: https://app.sproutsocial.com/publishing/calendar/week/compact (0)
-[69002:259:0913/183924.171673:ERROR:system_services.cc(31)] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
-[68994:259:0913/183926.374975:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
-[68994:259:0913/183926.389364:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
-[68994:56835:0913/183932.583719:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
-[68994:56835:0913/183933.091175:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
-[68994:56835:0913/183933.140960:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
-[68980:20483:0913/183945.822033:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
-[68980:20483:0913/183945.822308:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
-[68971:259:0913/183945.856636:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+ color: #0ca750; font-weight: bold;", source: https://d672eyudr6aq1.cloudfront.net/jsbr/common~5e06d148-43dd7041.aa116911c22d5736bc75.js (17)
+[80375:259:0914/154705.619911:INFO:CONSOLE(1)] "[Intercom] Launcher is disabled in settings or current page does not match display conditions", source: https://js.intercomcdn.com/frame-modern.75574a99.js (1)
+[80375:259:0914/154705.971023:INFO:CONSOLE(0)] "<meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes">", source: https://app.sproutsocial.com/publishing/calendar/week/compact (0)
+[80395:259:0914/154706.135268:ERROR:system_services.cc(31)] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
+[80387:259:0914/154709.046481:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154709.059335:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:70147:0914/154710.745783:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:70147:0914/154711.155114:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:70147:0914/154711.194601:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80375:259:0914/154724.247236:INFO:CONSOLE(2)] "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: dom., sep 15, 2024, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at Function.createFromInputFallback (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~5e06d148-0bc0478e.2548f6854ba0ebad96ab.js:2:78383)
+    at https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~5e06d148-0bc0478e.2548f6854ba0ebad96ab.js:2:98732
+    at https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~5e06d148-0bc0478e.2548f6854ba0ebad96ab.js:2:98783
+    at Sz (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~5e06d148-0bc0478e.2548f6854ba0ebad96ab.js:2:99095)
+    at Ez (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~5e06d148-0bc0478e.2548f6854ba0ebad96ab.js:2:99356)
+    at kz (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~5e06d148-0bc0478e.2548f6854ba0ebad96ab.js:2:99438)
+    at O (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~5e06d148-0bc0478e.2548f6854ba0ebad96ab.js:2:75300)
+    at q.validateDateInput (https://d672eyudr6aq1.cloudfront.net/jsbr/ComposeDateInput.0442435240f329dc8a8a.js:1:6609)
+    at Object.onBlur (https://d672eyudr6aq1.cloudfront.net/jsbr/ComposeDateInput.0442435240f329dc8a8a.js:1:7206)
+    at handleBlur (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~dde02cee.2cec11db6fb8dcac7193.js:135:887)
+    at Object.ze (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:17755)
+    at qe (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:17909)
+    at https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:37749
+    at Lr (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:37843)
+    at Dr (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:38256)
+    at https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:43674
+    at uu (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:106713)
+    at Ne (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:16888)
+    at Br (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:39541)
+    at Wt (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:23966)
+    at Ht (https://d672eyudr6aq1.cloudfront.net/jsbr/vendors~f8ce8328.a8331bbd186b61d37b42.js:2:23750)
+    at HTMLDivElement.r (https://d672eyudr6aq1.cloudfront.net/jsbr/sentry.4062527fac6e3376d07f.js:2:57407)
+    at od (<anonymous>:502:349)
+    at <anonymous>:513:5
+    at Object.<anonymous> (<anonymous>:514:445)
+    at apply.element-6066-11e4-a52e-4f735466cecf (<anonymous>:514:470)
+    at callFunction (<anonymous>:366:22)
+    at <anonymous>:380:23
+    at <anonymous>:381:3", source: https://d672eyudr6aq1.cloudfront.net/jsbr/sentry.4062527fac6e3376d07f.js (2)
+[80387:70147:0914/154727.243836:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:259:0914/154727.623627:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154727.652329:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154727.690291:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154727.692768:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154727.739400:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154727.765604:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154737.818288:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154737.851540:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:70147:0914/154742.917720:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:70147:0914/154743.181451:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:70147:0914/154743.183177:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:70147:0914/154754.164005:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:259:0914/154757.129334:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154757.149032:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154757.188211:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154757.190541:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154757.241964:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154757.266807:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:70147:0914/154812.356975:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:70147:0914/154812.641332:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:70147:0914/154812.643195:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:70147:0914/154826.668125:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[80387:259:0914/154827.124436:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154827.147287:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154827.184743:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154827.187057:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154827.234708:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80387:259:0914/154827.261411:INFO:document_style_environment_variables.cc(78)] E2E_Used SafeAreaInsetBottom
+[80375:259:0914/154839.947420:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

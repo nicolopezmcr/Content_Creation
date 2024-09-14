@@ -1,36 +1,34 @@
 from uploadFile import subir_clip
 from writeContent import escribir_contenido
+from pasteDate import pegar_fecha
+from datetime import datetime
+from sendAndNew import programar_y_nuevo
 
-def escribir_post(driver, clip_info):
-    print(f"Iniciando proceso para el clip: {clip_info['titulo']}")
+def escribir_post(driver, clip):
+    print(f"Iniciando proceso para el clip: {clip['titulo']}")
     try:
-        if subir_clip(driver, clip_info['ruta_video']):
-            print(f"Clip subido exitosamente: {clip_info['titulo']}")
+        if subir_clip(driver, clip['ruta_video']):
+            print(f"Clip subido exitosamente: {clip['titulo']}")
             
-            if escribir_contenido(driver, clip_info):
+            if escribir_contenido(driver, clip):
                 print("Contenido del post escrito correctamente.")
+                fecha_publicacion = datetime.fromisoformat(clip['fecha_programacion'])
+                pegar_fecha(driver, fecha_publicacion)
+                
+                # Programar y preparar para el siguiente post
+                programar_y_nuevo(driver)
+                
                 return True
             else:
                 print("Error al escribir el contenido del post.")
                 return False
         else:
-            print(f"Error al subir el clip: {clip_info['titulo']}")
+            print(f"Error al subir el clip: {clip['titulo']}")
             return False
     except Exception as e:
         print(f"Error inesperado en escribir_post: {str(e)}")
         return False
 
-def gestionar_posts(driver):
-    from getClipsInfo import obtener_info_clips
-    clips_info = obtener_info_clips()
-    if clips_info:
-        print(f"Se encontraron {len(clips_info)} clips para procesar.")
-        for clip in clips_info:
-            if escribir_post(driver, clip):
-                print(f"Post creado exitosamente para el clip: {clip['titulo']}")
-            else:
-                print(f"Error al crear el post para el clip: {clip['titulo']}")
-    else:
-        print("No se encontraron clips para procesar.")
+# La función gestionar_posts ya no es necesaria aquí, ya que la iteración se realiza en manageUploads.py
 
 
