@@ -3,6 +3,8 @@ from writeContent import escribir_contenido
 from pasteDate import pegar_fecha
 from datetime import datetime
 from sendAndNew import programar_y_nuevo
+from ifMobileEditor import verificar_selector_mobile_publisher
+import time
 
 def escribir_post(driver, clip):
     print(f"Iniciando proceso para el clip: {clip['titulo']}")
@@ -11,6 +13,8 @@ def escribir_post(driver, clip):
             print(f"Clip subido exitosamente: {clip['titulo']}")
             
             if escribir_contenido(driver, clip):
+                verificar_selector_mobile_publisher(driver)
+                time.sleep(2)
                 print("Contenido del post escrito correctamente.")
                 fecha_publicacion = datetime.fromisoformat(clip['fecha_programacion'])
                 pegar_fecha(driver, fecha_publicacion)

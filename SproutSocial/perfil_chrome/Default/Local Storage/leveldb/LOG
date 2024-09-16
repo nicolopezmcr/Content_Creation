@@ -1,3 +1,6 @@
-2024/09/14-15:47:04.065 3003 Reusing MANIFEST /Users/nicolopez/Cursor/Content_Creation/SproutSocial/perfil_chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2024/09/14-15:47:04.067 3003 Recovering log #36
-2024/09/14-15:47:04.068 3003 Reusing old log /Users/nicolopez/Cursor/Content_Creation/SproutSocial/perfil_chrome/Default/Local Storage/leveldb/000036.log 
+2024/09/15-19:08:55.972 5307 Reusing MANIFEST /Users/nicolopez/Cursor/Content_Creation/SproutSocial/perfil_chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/09/15-19:08:55.989 5307 Recovering log #43
+2024/09/15-19:08:55.993 5307 Reusing old log /Users/nicolopez/Cursor/Content_Creation/SproutSocial/perfil_chrome/Default/Local Storage/leveldb/000043.log 
+2024/09/15-19:17:57.666 3003 Level-0 table #46: started
+2024/09/15-19:17:57.694 3003 Level-0 table #46: 15947 bytes OK
+2024/09/15-19:17:57.716 3003 Delete type=0 #43
